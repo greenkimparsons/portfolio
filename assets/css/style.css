@@ -1,0 +1,116 @@
+header {
+    padding: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    background-color: rgb(26, 26, 26);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    white-space: nonwrap;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+    background-position: center;
+  }
+
+  main h2 {
+      font-size: 30px;
+      color:rgb(26, 26, 26);
+      text-align: right;
+      padding-right: 50px;
+      padding-left: 180px;
+  }
+
+  h3 {
+    font-size: 50px;
+    color: #2a607c;
+  }
+
+  .nav {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .products {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+  }
+
+  .card > img {
+    width: 100%;
+  }
+
+  .mywork {
+    height: 200px;
+    width: 80%;
+    margin-bottom: 25px;
+    object-fit: cover;
+    background-position: center;
+  }
+
+
+
+  #about-me .verticalLine {
+    border-left: 6px solid rgb(26, 26, 26);
+    height: 300px;
+    position: absolute;
+    left: 15%;
+    margin-left: -3px;
+    top: 300px;
+  }
+
+  #work .verticalLine {
+    border-left: 6px solid rgb(26, 26, 26);
+    height: 300px;
+    position: absolute;
+    left: 15%;
+    margin-left: -3px;
+    top: 700px;
+  }
+
+
+  #about-me {
+      padding-top: 30px;
+      padding-right: 115px;
+      padding-bottom: 50px;
+      width: 90%;
+      float: left;
+      line-height: 1.7em;
+      display: flex;
+  }
+
+  #surf-report {
+      flex: 10 10 100%;
+      margin-bottom: 25px;
+      background-position: center;
+      background-size: cover;
+  }
