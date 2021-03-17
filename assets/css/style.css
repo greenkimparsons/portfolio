@@ -35,9 +35,14 @@ header {
       padding-left: 180px;
   }
 
-  h3 {
-    font-size: 50px;
-    color: #2a607c;
+  .text-block {
+    position: absolute;
+    font-size: 18px;
+    background-color:rgb(26, 26, 26);
+    color: white;
+    padding: 30px;
+    width: 25%;
+    bottom: 20px;
   }
 
   .nav {
@@ -49,20 +54,16 @@ header {
 
   .products {
     flex: 1;
-    background-color: var(--white);
-    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   
   .card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
+    border: 2px solid rgb(26, 26, 26);;
     flex: 0 0 300px;
-    margin: 20px;
+    margin-bottom: 30px;
+    position: relative;
   }
 
   .card > img {
@@ -70,11 +71,12 @@ header {
   }
 
   .mywork {
-    height: 200px;
+    height: 350px;
     width: 80%;
     margin-bottom: 25px;
     object-fit: cover;
     background-position: center;
+    padding-left: 50px;
   }
 
 
@@ -90,11 +92,11 @@ header {
 
   #work .verticalLine {
     border-left: 6px solid rgb(26, 26, 26);
-    height: 300px;
+    height: 600px;
     position: absolute;
     left: 15%;
     margin-left: -3px;
-    top: 700px;
+    top: 670px;
   }
 
 
@@ -108,9 +110,27 @@ header {
       display: flex;
   }
 
+  #work {
+    padding-top: 30px;
+    padding-right: 115px;
+    padding-bottom: 50px;
+    width: 90%;
+    float: left;
+    line-height: 1.7em;
+    display: flex;
+}
+
   #surf-report {
       flex: 10 10 100%;
       margin-bottom: 25px;
       background-position: center;
       background-size: cover;
   }
+
+  #led-wall {
+    display:flex;
+    margin-bottom: 25px;
+    background-position: center;
+    background-size: cover;
+    max-height: 200px;
+}
