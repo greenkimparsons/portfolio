@@ -21,17 +21,16 @@ header {
 
   p {
     font-size: 16px;
-    display: inline-block;
+    width: 75%;
   }
 
-  ul {
-    white-space: nonwrap;
-  }
 
   #contact-me {
+    display: flex;
+    float: left;
     color: black;
     font-size: 30px;
-    padding: 20px;
+    padding-top: 140px;
     text-align: center;
     text-decoration: none;
   }
@@ -71,6 +70,7 @@ header {
   }
 
   .products {
+    padding-left: 45px;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +90,13 @@ header {
     border: 2px solid rgb(26, 26, 26);
   }
 
+  .card:hover {
+    background-color: black;
+    opacity: 10;
+  }
+
+
+
   .mywork {
     height: 350px;
     width: 80%;
@@ -105,31 +112,32 @@ header {
     border-left: 6px solid rgb(26, 26, 26);
     height: 300px;
     position: absolute;
-    left: 15%;
+    left: 20%;
     margin-left: -3px;
     top: 300px;
   }
 
   #work .verticalLine {
     border-left: 6px solid rgb(26, 26, 26);
-    height: 1970px;
+    height: 1875px;
     position: absolute;
-    left: 15%;
+    left: 20%;
     margin-left: -3px;
-    top: 670px;
+    top: 650px;
   }
 
   #contact-me .verticalLine {
     border-left: 6px solid rgb(26, 26, 26);
-    height: 100px;
+    height: 90px;
     position: absolute;
-    left: 15%;
+    left: 20%;
     margin-left: -3px;
-    top: 2720px;
+    top: 2630px;
   }
 
   #about-me {
       padding-top: 30px;
+      padding-left: 42px;
       padding-right: 115px;
       padding-bottom: 50px;
       width: 90%;
@@ -139,10 +147,7 @@ header {
   }
 
   #work {
-    padding-top: 30px;
-    padding-right: 115px;
-    padding-bottom: 50px;
-    width: 90%;
+    padding-top: 80px;
     float: left;
     line-height: 1.7em;
     display: flex;
@@ -157,7 +162,7 @@ header {
 
   #led-wall {
     display:flex;
-    margin-bottom: 25px;
+    margin-bottom: 3px;
     background-position: center;
     background-size: cover;
     max-height: 200px;
@@ -165,7 +170,6 @@ header {
 }
 
 button {
-  display: inline;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 22px;
   color: black;
